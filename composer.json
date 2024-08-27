@@ -1,0 +1,21 @@
+{
+    "name": "admin/php-work",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Admin\\PhpWork\\": "/",
+            "Router\\": "routes/",
+            "App\\": "app/",
+            "Database\\":"database/"
+        }
+    },
+    "authors": [
+        {
+            "name": "francknganou",
+            "email": "lebronzefranck@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ^8.0"
+    }
+}
